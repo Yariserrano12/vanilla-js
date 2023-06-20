@@ -1,7 +1,14 @@
-class Contador {
-  // Inserte el código aquí
-}
+import { contador } from "./ejercicio1";
 
-// Inserte el código aquí
+class Contador = {
+  valor: 0, 
+  siguiente()  
+  this.valor +=1; 
+    
+  
+} 
+const instancia = new contador(); 
 
-export { instancia }
+
+
+export { instancia }😍❤🤣
