@@ -17,7 +17,7 @@ function clonarObjeto(objeto) {
     return (clonar= {...objeto});
 } 
 
-*// ejercicio suma
+*// ejercicio suma 3
 
 function SumarTotal(valor1, valor2) {
     return (sumar= valor1 + valor2);
@@ -27,7 +27,7 @@ console.log(sumaActual);
 
 *// EJERCICIO 4
 
-let saludar = (nombre = "cualquiera") => {
+let saludar = (nombre = "desconocido") => {
     console.log("hola", nombre);
 } 
 arrowsaludar("Juana"); 
