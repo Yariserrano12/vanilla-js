@@ -1,12 +1,28 @@
-function horaActual() {
-  let hora = document.getElementById("horaActual");
-  var time = new Date();
-  let time1 = time.getHours
-  let time2 = time.getMinutes
-  let time3 = time.getSeconds
-}
-horaActual();
+function horaactual() {
+  let date = new Date();
+  let hora = date.getHours();
+  let minutes = date.getMinutes();
+  let seconds = date.getSeconds();
+  let horaActual = hora + "." + minutes + "." + seconds;
 
-setInterval(horaActual, 1000); 
-console.log(horaActual)cd
+  let eti =document.getElementById("time")
+  
+  
+
+  
+  eti.innerHTML = horaActual;
+}
+
+horaactual()
+setInterval(horaactual, 1000); 
+
+
+// PARTE DOS 
+
+let regaloPromesa = function () {
+  
+}
+
+
+
 // Inserte el código aquí
