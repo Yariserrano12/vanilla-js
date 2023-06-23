@@ -9,6 +9,13 @@ if (operacion=="suma") {
     if (operacion=="resta") {
         console.log(calculadora.resta(numero1,numero2))
     }
+} 
+if (operacion=="multiplicacion") {
+    console.log(calculadora.multiplicacion(numero1,numero2))
+} else{
+    if (operacion=="division") {
+        console.log(calculadora.division(numero1,numero2))
+    }
 }
  
 }
